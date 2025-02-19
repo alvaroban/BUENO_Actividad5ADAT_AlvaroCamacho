@@ -33,4 +33,8 @@ public class MotoController {
         return ResponseEntity.ok(allMotos);
     }
 
+    private void hola() {
+        System.out.println("Hola");
+    }
+
 }
